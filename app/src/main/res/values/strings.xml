@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Clothing</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Sok Sophorn</string>
+    <string name="nav_header_subtitle">sopheaerum@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="products_list">Clothing</string>
+    <string name="menu_slideshow">About Us</string>
+    <string name="login_page">login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="settings">Settings</string>
+
+
+    <string name="about_us_title">About Us</string>
+    <string name="about_us_description">Welcome to our company! We are committed to providing excellent services and products to our customers.</string>
+    <string name="mission_title">Our Mission</string>
+    <string name="mission_description">Our mission is to deliver high-quality solutions that empower our clients and contribute to their success.</string>
+    <string name="team_title">Meet Our Team</string>
+    <string name="contact_title">Contact Us</string>
+    <string name="contact_info">Email: contact@ourcompany.com\nPhone: +1 234 567 890</string>
+    <string name="location_title">Our Location</string>
+    <string name="logo_description">Company Logo</string>
+    <string name="team_member">Team Member</string>
+</resources>

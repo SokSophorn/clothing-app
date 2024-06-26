@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Account Settings Category -->
+    <PreferenceCategory
+        android:key="category_account"
+        android:title="Account Settings">
+
+        <EditTextPreference
+            android:key="username"
+            android:title="Username"
+            android:summary="Change your username"
+            android:inputType="text" />
+
+        <EditTextPreference
+            android:key="email"
+            android:title="Email"
+            android:summary="Change your email"
+            android:inputType="textEmailAddress" />
+    </PreferenceCategory>
+
+    <!-- Notification Settings Category -->
+    <PreferenceCategory
+        android:key="category_notifications"
+        android:title="Notification Settings">
+
+        <SwitchPreferenceCompat
+            android:key="notifications"
+            android:title="Enable Notifications"
+            android:summary="Receive notifications from the app" />
+
+        <RingtonePreference
+            android:key="notification_ringtone"
+            android:title="Notification Ringtone"
+            android:summary="Set your notification ringtone" />
+    </PreferenceCategory>
+
+    <!-- Privacy Settings Category -->
+    <PreferenceCategory
+        android:key="category_privacy"
+        android:title="Privacy Settings">
+
+        <SwitchPreferenceCompat
+            android:key="location"
+            android:title="Enable Location Services"
+            android:summary="Allow the app to access your location" />
+
+        <Preference
+            android:key="privacy_policy"
+            android:title="Privacy Policy"
+            android:summary="View the privacy policy"
+            android:fragment="com.sornsophearum.pcstore.ui.settings.PrivacyPolicyFragment" />
+    </PreferenceCategory>
+
+    <!-- About Section -->
+    <PreferenceCategory
+        android:key="category_about"
+        android:title="About">
+
+        <Preference
+            android:key="version"
+            android:title="App Version"
+            android:summary="1.0.0" />
+
+        <Preference
+            android:key="feedback"
+            android:title="Send Feedback"
+            android:summary="We appreciate your feedback"
+            android:fragment="com.sornsophearum.pcstore.ui.settings.FeedbackFragment" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
